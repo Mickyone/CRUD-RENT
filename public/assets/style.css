@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+thead th{
+    padding: 0 38px;
+}
+#Mgrey, #Sgrey{
+    padding: 0 38px;
+    text-align: center;
+}
+#Mgrey{
+background-color: rgb(182, 182, 182);
+}
+#Sgrey{
+background-color: rgb(220, 219, 219);
+}
