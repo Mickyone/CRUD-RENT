@@ -1,5 +1,4 @@
-<?php
-require './core/database.php';
+<?php require './core/database.php';
 
 $requete = "SELECT user_id,name FROM user";
 $users = $connexion->query($requete)->fetchAll();

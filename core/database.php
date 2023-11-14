@@ -12,3 +12,5 @@ $options = [
 $connexion = new PDO($dsn,DBUSERNAME,DBUSERPASSWORD,$options);
 
 // dd($connexion);
+
+

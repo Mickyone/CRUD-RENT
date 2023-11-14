@@ -1,5 +1,6 @@
 <?php require 'partials/header.php'; ?>
 
+<a href="/new-rent.php">new rent</a>
 <table>
     <thead>
         <th>#</th>

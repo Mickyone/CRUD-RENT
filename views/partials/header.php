@@ -7,4 +7,3 @@
     <title>Header</title>
 </head>
 <body>
-    <a href="../../controllers/new-rent.php">new rent</a>
