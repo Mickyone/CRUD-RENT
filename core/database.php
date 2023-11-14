@@ -1,5 +1,5 @@
 <?php
-require './config/dbConfig.php';
+require '../config/dbConfig.php';
 
 //$dsn = "mysql:host=" . DBHOST .";dbname=" . DBNAME . ";charset:" . DBCHARSET . "";//
 $dsn = 'mysql:host=' . DBHOST .';dbname=' . DBNAME . ';charset:' . DBCHARSET . '';
@@ -10,6 +10,8 @@ $options = [
 ];
 
 $connexion = new PDO($dsn,DBUSERNAME,DBUSERPASSWORD,$options);
+
+
 
 // dd($connexion);
 

@@ -1,3 +1,3 @@
 <?php
-require './config/functions.php';
-require './core/router.php';
+require 'config/functions.php';
+require 'core/router.php';

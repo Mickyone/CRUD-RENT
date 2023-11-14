@@ -6,7 +6,7 @@
         <th>#</th>
         <th>id</th>
         <th>registration</th>
-        <th>marque</th>
+        <th>brand</th>
         <th>type</th>
         <th>capacity</th>
         <th>rent_at</th>
@@ -15,16 +15,16 @@
     <tbody>
         <?php
         $i = 1;
-        foreach ($utilitaires as $utilitaire) { ?>
+        foreach ($utilityvan as $utility) { ?>
         <tr id="table-container">
             <td id="Mgrey"><?= $i ?></td>
-            <td id="Sgrey"><?= $utilitaire['id'] ?></td>
-            <td id="Mgrey"><?= $utilitaire['registration'] ?></td>
-            <td id="Sgrey"><?= $utilitaire['marque'] ?></td>
-            <td id="Mgrey"><?= $utilitaire['type'] ?></td>
-            <td id="Sgrey"><?= $utilitaire['capacity'] ?></td>
-            <td id="Mgrey"><?= $utilitaire['rent_at'] ?></td>
-            <td id="Sgrey"><?= $utilitaire['back_at'] ?></td>
+            <td id="Sgrey"><?= $utility['id'] ?></td>
+            <td id="Mgrey"><?= $utility['registration'] ?></td>
+            <td id="Sgrey"><?= $utility['brand'] ?></td>
+            <td id="Mgrey"><?= $utility['type'] ?></td>
+            <td id="Sgrey"><?= $utility['capacity'] ?></td>
+            <td id="Mgrey"><?= $utility['rent_at'] ?></td>
+            <td id="Sgrey"><?= $utility['back_at'] ?></td>
         </tr>
         <?php $i++; } ?> 
     </tbody>

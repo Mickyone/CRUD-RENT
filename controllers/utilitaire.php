@@ -1,6 +1,6 @@
-<?php require './core/database.php';
+<?php require 'core/database.php';
 
-$utilitaires = $connexion->query('SELECT * FROM utilitaire')->fetchAll();
+$utilityvan = $connexion->query('SELECT * FROM utilityvan')->fetchAll();
 
 // dd($utilitaires);
 require './views/utilitaire.view.php'; ?>
