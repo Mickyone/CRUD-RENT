@@ -7,3 +7,6 @@
     <title>Header</title>
 </head>
 <body>
+    <nav>
+        <a href="/controllers/new-rent.php">New Rent</a>
+    </nav>
