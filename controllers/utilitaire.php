@@ -1,4 +1,4 @@
-<?php require 'core/database.php';
+<?php require '../database.php';
 
 $utilityvan = $connexion->query('SELECT * FROM utilityvan')->fetchAll();
 

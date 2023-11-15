@@ -1,5 +1,5 @@
 <?php
-require '../core/database.php';
+require '../database.php';
 require '../config/functions.php';
 
 $users = $connexion->query('SELECT * FROM users')->fetchAll();

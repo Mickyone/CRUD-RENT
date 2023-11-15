@@ -1,4 +1,4 @@
-<?php require '../core/database.php';
+<?php require '../database.php';
 // require '../config/dbConfig.php';
 
 $requete = "SELECT * FROM utilityvan";
